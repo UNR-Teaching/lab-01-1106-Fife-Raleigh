@@ -1,0 +1,74 @@
+### Complete the following tasks and answer the questions
+
+1. In a terminal, change directories in the `labs` directory and then into the lab 1 directory that was created when you cloned the project
+
+2. Open the file `answers.txt` in an editor. You will answer the questions in this section in that file.
+
+3. Type `ls` to view the contents of your lab directory. Now type the command `ls > newfile.txt`. Use the `ls` command again to view the contents of the directory. What has changed? What do you think the `>` in the previous statement did when combined with the `ls` command?
+
+It appears that it created the new txt file
+
+
+4. Add `newfile.txt` to the git repository using the command `git add newfile.txt`
+
+
+5. Run the command `git status`. What does it say about `newfile.txt`?
+
+It says that newfile.txt is to be commited. I dcould use another comand to unstage it.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+	new file:   newfile.txt
+
+
+6. Open the file `newfile.txt` in a editor. Add the line "This is my file listing" to the top of the file and save it. Now run the command `git diff`. What does this command tell you about your files and their contents? You will need to type 'q' to exit the diff viewer.
+
+It shows what has been edited to change the newfile.txt by heighliting the change in green.
+diff --git a/newfile.txt b/newfile.txt
+index b0902fe..02b8b16 100644
+--- a/newfile.txt
++++ b/newfile.txt
+@@ -1,3 +1,4 @@
++This is my file listing  Green
+ answers.txt
+ _config.yml
+ newfile.txt
+
+
+7. Check your answers file to ensure that you have answered all the questions, and then save and close it.
+There wasn't an "answerd.txt" when i cloned the lab, so i  created this one. 
+
+8. Run the git command `git add .`.
+
+
+9. Run the git command `git commit -m "my first commit"
+
+
+10. You may encounter what looks like an error message that looks something like this
+
+
+
+```
+Please tell me who you are. 
+
+Run 
+	git config --global user.email "you@exanple.com 
+	git config --global user.name "Your Name"
+
+```
+Follow the directions by typing in the lines, of course using your own email and name, and then run the git commit command again. 
+
+11. Push your code to Github using the command `git push origin main`
+
+## What to Turn In
+In the text entry for this assignment, put your Github username. Go to your Github repository for this lab and copy the clone url as you did in step 2 [here](#clone). Paste the clone URL into the text field on the next line after your github name.
+
+Submit your assignment.
+
+
+
+
+
+
+
+
+
