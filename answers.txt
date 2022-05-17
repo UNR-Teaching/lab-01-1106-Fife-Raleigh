@@ -45,7 +45,7 @@ There wasn't an "answerd.txt" when i cloned the lab, so i  created this one.
 
 10. You may encounter what looks like an error message that looks something like this
 
-
+I did not get the error message. 
 
 ```
 Please tell me who you are. 
